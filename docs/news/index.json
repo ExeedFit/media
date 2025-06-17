@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "title": "Latest Healthcare Technology Trends in 2024",
+      "filename": "healthcare-technology-trends-2024.html",
+      "date": "2024-01-15",
+      "author": "Dr. Sarah Johnson",
+      "description": "Explore the cutting-edge technologies revolutionizing healthcare delivery and patient care in 2024."
+    },
+    {
+      "title": "Telemedicine: The Future of Remote Healthcare",
+      "filename": "telemedicine-future-remote-healthcare.html",
+      "date": "2024-01-10",
+      "author": "Dr. Michael Chen",
+      "description": "How telemedicine is transforming patient consultations and making healthcare more accessible."
+    },
+    {
+      "title": "Mental Health Awareness: Breaking the Stigma",
+      "filename": "mental-health-awareness-breaking-stigma.html",
+      "date": "2024-01-05",
+      "author": "Dr. Emily Rodriguez",
+      "description": "Understanding mental health challenges and the importance of seeking professional help."
+    },
+    {
+      "title": "Preventive Care: Your First Line of Defense",
+      "filename": "preventive-care-first-line-defense.html",
+      "date": "2023-12-28",
+      "author": "Dr. James Wilson",
+      "description": "Learn about the importance of regular check-ups and preventive measures for optimal health."
+    },
+    {
+      "title": "Nutrition and Wellness: A Holistic Approach",
+      "filename": "nutrition-wellness-holistic-approach.html",
+      "date": "2023-12-20",
+      "author": "Dr. Lisa Martinez",
+      "description": "Discover how proper nutrition and lifestyle choices contribute to overall well-being."
+    }
+  ]
+}
