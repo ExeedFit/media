@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News for Indian Doctors</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background, similar to docindia.org's clean look */
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        .header-section {
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+        }
+        .news-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .news-card:hover {
+            transform: translateY(-5px);
+        }
+        .cta-section {
+            background-color: #007bff; /* A prominent blue, often used for CTAs and primary actions */
+            color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 0.75rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #28a745; /* A vibrant green for the CTA */
+            color: #ffffff;
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .cta-button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            transition: color 0.2s ease;
+        }
+        .back-link:hover {
+            color: #0056b3;
+        }
+        .back-link i {
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container">
+        <!-- Back to News link -->
+        <a href="../index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i>
+            Back to News
+        </a>
+
+        <!-- Header Section -->
+        <div class="header-section">
+            <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-2">Latest News for Indian Doctors</h1>
+            <p class="text-center text-gray-600">Stay updated with the most recent developments in medicine and healthcare.</p>
+        </div>
+
+        <!-- News Articles Section -->
+        <div class="news-section">
+            <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 px-4">Yesterday's Highlights & Recent Important News</h2>
+
+            <!-- News Article 1 - From PBS/Associated Press -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Doctors Heroically Respond to Air India Plane Crash on Medical Campus</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via AP on PBS)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Surviving doctors and medical students on campus rushed to save lives after an Air India plane crashed into a medical college in Ahmedabad. Their immediate and courageous response, including efforts to identify victims through DNA testing, has been widely recognized.
+                </p>
+                <a href="https://www.pbs.org/newshour/world/after-the-air-india-plane-crashed-into-a-medical-campus-the-surviving-doctors-rushed-to-save-lives" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (PBS/AP)</a>
+            </div>
+
+            <!-- News Article 2 - From Al Jazeera -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">One Survivor in Tragic Air India Plane Crash in Ahmedabad</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 12, 2025 (via Al Jazeera)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    An Air India passenger plane bound for London crashed into a medical college in Ahmedabad, killing more than 240 people. Only one passenger survived, making it one of India's worst airline disasters in decades. Investigations are underway.
+                </p>
+                <a href="https://www.aljazeera.com/news/liveblog/2025/6/12/live-air-india-flight-carrying-at-least-244-people-crashes-on-takeoff" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Al Jazeera)</a>
+            </div>
+
+            <!-- News Article 3 - From Newswire.ca (Health Canada Advisory related to Indian lab) -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Drug Recalls Issued Due to Data Integrity Concerns with Indian Lab Bioequivalence Tests</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 17, 2025 (via Newswire.ca)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Health Canada has issued a public advisory regarding recalls of certain drug products (Accel-Ondansetron ODT, Mint-Betahistine, PMS-Pirfenidone) due to concerns over data integrity from bioequivalence tests performed by an Indian contract research organization, highlighting the importance of stringent quality control.
+                </p>
+                <a href="https://www.newswire.ca/news-releases/public-advisory-accel-ondansetron-odt-mint-betahistine-and-pms-pirfenidone-tablets-recalled-due-to-data-integrity-concerns-808264346.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Newswire.ca)</a>
+            </div>
+
+            <!-- News Article 4 - From WHO India News -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">India Reaffirms Global Health Commitment at 78th World Health Assembly</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: May 21, 2025 (via Business Standard, citing WHO)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    India addressed the 78th World Health Assembly, reaffirming its commitment to global health equity and highlighting transformative strides made under initiatives like Ayushman Bharat. The nation also pledged support for a binding framework for global cooperation and equitable access to medical countermeasures.
+                </p>
+                <a href="https://www.business-standard.com/india-news/india-reaffirms-global-health-commitment-at-78th-world-health-assembly-125052101021_1.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Business Standard/WHO)</a>
+            </div>
+
+            <!-- News Article 5 - From WHO India News -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">India Certified Trachoma-Free by WHO, Aims for Further Disease Elimination</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: May 21, 2025 (via Business Standard, citing WHO)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    The WHO has certified India as Trachoma-Free, a significant public health achievement. India remains committed to eliminating other diseases such as TB, Leprosy, Lymphatic Filariasis, Measles, Rubella, and Kala-azar, demonstrating its dedication to public health.
+                </p>
+                <a href="https://www.business-standard.com/india-news/india-reaffirms-global-health-commitment-at-78th-world-health-assembly-125052101021_1.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Business Standard/WHO)</a>
+            </div>
+
+            <!-- News Article 6 - From The BMJ (referencing Lancet) -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Former Health Secretary Quits Lancet Commission on Indian Healthcare Reform Citing 'Corporatisation' Concerns</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: October 1, 2024 (via The BMJ)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    A Lancet commission on India's healthcare system faced controversy as a former health secretary resigned, citing concerns that a forthcoming report supports the privatization and "corporatisation" of primary healthcare, drawing parallels to the US model.
+                </p>
+                <a href="https://www.bmj.com/content/387/bmj.q2148" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (The BMJ)</a>
+            </div>
+
+            <!-- News Article 7 - From The BMJ (referencing Lancet) -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">India Rejects Lancet Report on Healthcare Spending, Cites Higher Investments</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: April 15, 2024 (via Economic Times, citing Lancet)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    The Indian government has refuted a Lancet report claiming low healthcare spending, stating that investments are at an all-time high. The Health Ministry aims to increase spending to 2.5% of GDP by 2025 and emphasizes efforts to reduce out-of-pocket expenses and expand services.
+                </p>
+                <a href="https://m.economictimes.com/industry/healthcare/biotech/healthcare/india-rubbishes-lancet-report-says-spending-on-healthcare-is-at-all-time-high/articleshow/109306882.cms" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Economic Times/Lancet)</a>
+            </div>
+
+            <!-- News Article 8 - From eHealth Magazine -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">How Can India Redesign Its Healthcare Beyond 2025? Key Insights on Challenges and Solutions</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 2025 (via eHealth Magazine)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    An analysis explores the future of Indian healthcare, highlighting challenges such as the rise of chronic diseases in rural areas, the silent epidemic of cancer, and mental health issues. It emphasizes the urgent need for cross-sectoral collaboration and technology integration for effective redesign.
+                </p>
+                <a href="https://ehealth.eletsonline.com/2025/06/how-can-india-redesign-its-healthcare-beyond-2025/" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (eHealth Magazine)</a>
+            </div>
+
+            <!-- News Article 9 - From Digital Health News -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">IHD 2025: India Poised to Lead Global Healthcare Revolution with Tech-Driven Care</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: March 2025 (via Digital Health News)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    The International Health Dialogue (IHD) 2025 highlighted India's potential to lead a global healthcare revolution by leveraging technology and human-centered care. The event saw the launch of the World Economic Forum's India Digital Health Activator, aiming to accelerate digital health adoption.
+                </p>
+                <a href="https://www.digitalhealthnews.com/ihd-2025-india-to-lead-global-healthcare-revolution-with-tech-driven-human-centered-care" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Digital Health News)</a>
+            </div>
+
+            <!-- News Article 10 - From The Wire -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Vijay Dhawangale Honoured with Excellence in Healthcare Award at UK-India Health Partnership Awards 2025</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via The Wire)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Vijay Dhawangale, Founder of Lifenity Group, was conferred with the Excellence in Healthcare Award at the UK-India Health Partnership Awards 2025, recognizing his visionary leadership and contributions to diagnostic and wellness services, including expansive free diagnostic services programs.
+                </p>
+                <a href="https://m.thewire.in/article/ptiprnews/vijay-dhawangale-honoured-with-excellence-in-healthcare-award-at-uk-india-health-partnership-awards-2025" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (The Wire)</a>
+            </div>
+
+            <!-- News Article 11 - From NCUIH (Policy related to Indian Health) -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Analysis: President Trump Proposes Increase for Indian Health Service FY 2026 Budget</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 3, 2025 (via NCUIH)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    An analysis of President Trump's budget proposal for FY 2026 indicates a proposed increase for the Indian Health Service and stable funding for Urban Indian Health. This reflects ongoing discussions and advocacy for consistent and predictable funding for Indian healthcare systems.
+                </p>
+                <a href="https://ncuih.org/2025/06/03/analysis-president-trump-proposes-increase-for-indian-health-service-stable-funding-for-urban-indian-health-for-fy-2026/" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (NCUIH)</a>
+            </div>
+
+            <!-- News Article 12 - From Medical Dialogues -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">India Continues to be a Leading Supplier of Vaccines Globally: Union Minister</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 17, 2025 (via Medical Dialogues)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Union Minister of State for Health & Family Welfare, Anupriya Patel, reiterated India's strong position as a global vaccine supplier, with 70% of WHO's total vaccines sourced from the country. This highlights India's commitment to affordable healthcare solutions.
+                </p>
+                <a href="https://medicaldialogues.in/news/industry/pharma/india-continues-to-be-a-leading-supplier-of-vaccines-anupriya-patel-150154" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Medical Dialogues)</a>
+            </div>
+
+            <!-- News Article 13 - From Medical Dialogues -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Smarter, Cheaper, Faster AI Tool Developed for Cancer Monitoring</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 17, 2025 (via Medical Dialogues)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    A team of scientists has developed an innovative AI-based method called "Fragle" that simplifies and accelerates cancer tracking using blood tests. This tool promises more accurate, affordable, and faster monitoring of cancer, potentially revolutionizing oncology practices.
+                </p>
+                <a href="https://medicaldialogues.in/channels/medical-news-today/medical-bulletin-17june2025-150142" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Medical Dialogues)</a>
+            </div>
+
+            <!-- News Article 14 - From Medical Dialogues -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">NEET PG 2025: MP Doctors Urge Health Minister to Extend Internship Deadline</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via Medical Dialogues)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Thousands of postgraduate aspirants in Madhya Pradesh may become ineligible for NEET PG 2025 due to delays in result publication, hindering their compulsory internship completion. Doctors have urged the Health Minister and NMC to extend the deadline.
+                </p>
+                <a href="https://medicaldialogues.in/amp/channels/health-news-today/health-bulletin-16june2025-150107" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Medical Dialogues)</a>
+            </div>
+
+            <!-- News Article 15 - From eHealth Magazine -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">COVID-19 Resurgence in India: Active Cases Rise, Vigilance Advised</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 15, 2025 (via eHealth Magazine)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    India is seeing a rise in active COVID-19 cases, with the Union Health Ministry reporting a surge to 7,400 infections. While hospitalizations remain low, emerging variants are being closely monitored, emphasizing the need for continued public health preparedness.
+                </p>
+                <a href="https://ehealth.eletsonline.com/2025/06/covid-19-resurgence-in-india-active-cases-rise-to-7400/" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (eHealth Magazine)</a>
+            </div>
+
+            <!-- News Article 16 - From AIIMS Exams -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">AIIMS Delhi Publishes P.G. Research Methodology Examination Results</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via AIIMS Exams)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    The All India Institute of Medical Sciences (AIIMS), New Delhi, has released the results for the P.G. Research Methodology Examination held earlier this month, affecting numerous postgraduate medical students.
+                </p>
+                <a href="https://docs.aiimsexams.ac.in/sites/NET-RESULT-Research%20Methodology-June-2025.pdf" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (AIIMS Exams)</a>
+            </div>
+
+            <!-- News Article 17 - From Managed Healthcare Executive -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Understanding Impact of Disease Severity on Quality of Life for ILD Patients in India</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via Managed Healthcare Executive)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    A study highlights the significant impact of interstitial lung disease (ILD) severity on the quality of life for patients in India, noting that occupational and environmental exposures contribute to a different disease course compared to the US.
+                </p>
+                <a href="https://www.managedhealthcareexecutive.com/view/understanding-the-impact-of-disease-severity-on-quality-of-life-patients-with-ild-in-india" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Managed Healthcare Executive)</a>
+            </div>
+
+            <!-- News Article 18 - From Pharmabiz.com -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Indian Healthcare Sees Growing Need to Integrate Technology for Diagnostics Traction</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 11, 2025 (via Pharmabiz.com)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Indian healthcare is increasingly recognizing the value of integrating technology, particularly in diagnostics, to propel preventive diagnostics in rural and remote areas. Emerging innovations like portable diagnostics and AI-powered imaging offer opportunities to bridge the urban-rural divide.
+                </p>
+                <a href="https://www.pharmabiz.com/PrintArticle.aspx?aid=178405&sid=1" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Pharmabiz.com)</a>
+            </div>
+
+            <!-- News Article 19 - From Business Standard -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Global Warming May Worsen Sleep Apnoea, Warns Study</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 17, 2025 (via Business Standard)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    A new study warns that global warming could make sleep apnoea more severe and widespread. From lost healthy years to billions in damages, climate-linked sleep apnoea surge could become a hidden global crisis, urging doctors to be aware of environmental impacts on health.
+                </p>
+                <a href="https://www.business-standard.com/health/global-warming-may-make-sleep-apnoea-worse-and-widespread-warns-study-125061700445_1.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Business Standard)</a>
+            </div>
+
+            <!-- News Article 20 - From Business Standard -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">New Blood Test Could Spot Cancer Up to 3 Years Before Symptoms</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via Business Standard)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    A Johns Hopkins University study suggests that a simple blood test may detect cancer long before symptoms emerge, potentially transforming early treatment and survival rates. This development holds significant promise for early intervention in oncology.
+                </p>
+                <a href="https://www.business-standard.com/health/this-new-blood-test-could-spot-cancer-up-to-3-years-before-symptoms-125061600557_1.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Business Standard)</a>
+            </div>
+
+            <!-- News Article 21 - From Business Standard -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Asthma Risk Rises Sharply for Women Working Night Shifts, Study Warns</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via Business Standard)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    A study warns that women on night shifts face up to a 50% higher risk of asthma due to hormonal disruption and circadian imbalance, with postmenopausal women being most vulnerable. This highlights an important occupational health consideration for female healthcare workers.
+                </p>
+                <a href="https://www.business-standard.com/health/asthma-risk-rises-sharply-for-women-working-night-shifts-warns-study-125061600373_1.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Business Standard)</a>
+            </div>
+
+            <!-- News Article 22 - From Business Standard -->
+            <div class="news-card">
+                <h3 class="text-xl md:text-2xl font-semibold text-gray-900 mb-2">Your Dentist Can Spot Diabetes, Heart Disease, and Cancer in Early Stages</h3>
+                <p class="text-sm text-gray-500 mb-3">Published: June 16, 2025 (via Business Standard)</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Oral symptoms often appear before other health problems, meaning dentists may be the first to notice signs of systemic conditions like diabetes, autoimmune conditions, heart disease, and even cancer in their early stages. This emphasizes the vital role of dental professionals in overall health.
+                </p>
+                <a href="https://www.business-standard.com/health/your-dentist-can-spot-diabetes-heart-disease-and-cancer-in-early-stages-125061600276_1.html" class="text-blue-600 hover:text-blue-800 text-sm font-medium mt-3 inline-block" target="_blank" rel="noopener noreferrer">Read More (Business Standard)</a>
+            </div>
+
+        </div>
+
+        <!-- DocIndia.org CTA Section -->
+        <div class="cta-section">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Grow Your Practice with DocIndia.org</h2>
+            <p class="mb-6 text-lg">
+                DocIndia.org is dedicated to empowering medical professionals. Discover how our platform can help you expand your patient reach, streamline appointments, and enhance your online presence.
+            </p>
+            <a href="https://www.docindia.org/marketing/for-doctors" class="cta-button" target="_blank" rel="noopener noreferrer">
+                Learn How DocIndia.org Can Help
+            </a>
+        </div>
+    </div>
+</body>
+</html>
